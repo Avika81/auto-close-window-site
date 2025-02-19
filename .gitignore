@@ -6,6 +6,8 @@ __pycache__/
 # C extensions
 *.so
 
+cert.pem
+key.pem
 # Distribution / packaging
 .Python
 build/
