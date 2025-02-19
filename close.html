@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Close</title>
+    <script>
+        window.onload = function() {
+            // Attempt to close the tab
+            window.open('', '_self', ''); 
+            window.close();
+        };
+    </script>
+</head>
+<body>
+    <button onclick="closeTab()">Close Window</button>
+
+    <script>
+        function closeTab() {
+            window.open('', '_self', ''); // Required in some browsers
+            window.close();
+        }
+    </script>
+</body>
+</html>
